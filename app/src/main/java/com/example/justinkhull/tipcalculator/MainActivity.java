@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isValid = true;
 
         String billTotalValid = bill_total_in.getText().toString();
-        //Double billTotalValue = Double.parseDouble(billTotalValid);
+        //found another way to implement error messages at https://stackoverflow.com/questions/6290531/check-if-edittext-is-empty (Answer by"MilapTank")
         if (TextUtils.isEmpty(billTotalValid)){
             String totalError = getString(R.string.bill_total_in_error);
             bill_total_in.setError(totalError);
