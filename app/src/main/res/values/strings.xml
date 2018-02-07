@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="bill_total">BILL TOTAL</string>
+    <string name="bill_total_in">00.00</string>
+    <string name="num_people">NUMBER OF PEOPLE</string>
+    <string name="num_people_in">1</string>
+    <string name="tip_label">TIP</string>
+    <string name="fifteen">15%</string>
+    <string name="eighteen">18%</string>
+    <string name="twenty">20%</string>
+    <string name="custom">CUSTOM</string>
+    <string name="reset_button">RESET</string>
+    <string name="calculate_button">CALCULATE TIP</string>
+    <string name="tip_amount">TIP</string>
+    <string name="total_amount">TOTAL</string>
+    <string name="total_per_person">EACH</string>
+    <string name="custom_in">0</string>
+    <string name="custim_tip_in_error">Please enter a valid tip percentage.</string>
+    <string name="bill_total_in_error">Please enter a valid bill total.</string>
+    <string name="num_people_in_error">Please enter a valid number of people splitting the bill.</string>
+
+    <string name="noTipSelected">Please select a tip percentage!</string>
+</resources>
