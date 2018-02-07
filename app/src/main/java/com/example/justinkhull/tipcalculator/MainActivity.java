@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-   /* @Override
+    @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putString("savedEach", displayEach);
@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
         final_tip.setText(displayTip);
         String displayTotal = savedInstanceState.getString("savedTotal");
         final_total.setText(displayTotal);
-    }*/
+    }
 
     public boolean validate() {
         boolean isValid = true;
